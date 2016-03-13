@@ -1,0 +1,215 @@
+.flower-main{
+    margin: 10px auto;
+    padding: 0 10px;
+    width: 1000px;
+    background: #ffffff;
+}
+.ti-p{
+    width: 1000px;
+    margin: 10px auto;
+}
+.flo-main-title{
+    position: relative;
+    border-bottom: 2px solid #eeeeee;
+}
+.flo-main-title  h2{
+    position: relative;
+    font-size: 20px;
+    height: 58px;
+    line-height: 58px;
+    text-indent: 4px;
+}
+.tab-green{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: #bcc628;
+}
+.flower-filter{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 318px;
+    height: 36px;
+}
+.flo-input{
+    padding-left: 10px;
+    width: 226px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #eeeeee;
+}
+.flo-search{
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #559831;
+    color: #fff;
+    cursor: pointer;
+ }
+
+/*flo-main-content*/
+.flo-main-content{
+    padding: 20px 0;
+}
+.flo-table{
+
+}
+table tr td{
+    height: 45px;
+    text-align: center;
+}
+table tr th{
+    height: 50px;
+    background: #f5f5f5;
+}
+table tr:nth-child(odd) td{
+    background: #f8f9fb;
+}
+.flo-1{
+    width: 400px;
+    text-align: left;
+    text-indent: 10px;
+}
+.flo-2{
+    width: 150px;
+}
+.see-flo{
+
+}
+
+.flo-table tr .see-left{
+    text-align: left;
+    text-indent: 10px;
+}
+.see-center,.cla-center,.cla-center-yes{
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #bcc628;
+    cursor: pointer;
+}
+
+
+/********我的班级-更多样式***************/
+.class-table{
+    
+}
+.class-table tr{
+    font-size: 16px;
+}
+.cla-1,.cla-left{
+    width: 340px;
+    text-align: left;
+    text-indent: 10px;
+}
+.cla-2{
+    width: 140px;
+}
+.cla-3{
+    width: 190px;
+}
+.cla-left{}
+.cla-flo{}
+.cla-center{}
+.cla-center-yes{
+    background: #b0b0b0;
+    border: none;
+    color: #fff;
+}
+/*****热门课程-更多副本样式*******/
+.cour-1{
+    width: 80px;
+}
+.cour-2{
+    width: 415px;
+    text-align: left;
+    text-indent: 10px;
+}
+.cour-3{
+    width: 180px;
+}
+.cour-4{
+    width: 140px;
+}
+.cour-flo{
+    padding-left: 40px;
+    overflow: hidden;
+}
+.cour-star,.cour-star1{
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 2px;
+}
+.cour-star{
+    background: url(../img/star.png) no-repeat;
+}
+.cour-star1{
+    background: url(../img/star1.png) no-repeat center;
+}
+
+/*翻页*************/
+.page-fanye{
+    padding: 20px 140px;
+    width: 472px;
+    height: 31px;
+}
+.page-fanye span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+#fanye-list select{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+.fanye-last option{
+    color: #555;
+}
+
+/*培训动态更多cssstyle*/
+.pei-xun-ul{
+    padding: 0 20px;
+}
+.pei-xun-ul li{
+    padding: 5px 0;
+}
+.pei-xun-ul li p{
+    line-height: 20px;
+    font-size: 14px;
+}
+.blue-color{
+    color: blue;
+    cursor: pointer;
+}
+.li-title{
+    line-height: 40px;
+    font-size: 16px;
+}
+.update{
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.know-see{
+    margin: 20px auto;
+    padding: 0 20px;
+    width: 980px;
+    background: #FFFFFF;
+}
+.know-see h3{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+}
+.person-h3{
+    font-size: 12px;
+    line-height: 30px;
+}
+.person-h3 span{
+    color: #bcc628;
+}
+.person-content{
+    padding: 10px;
+    border: 1px dashed #eeeeee;
+    border-left: none;
+    border-right: none;
+}
+.person-content p{
+    text-indent:40px;
+}
+
+
+
+
+
+
+

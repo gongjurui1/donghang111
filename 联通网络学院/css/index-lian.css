@@ -1,0 +1,108 @@
+
+.co3{
+    color: #fb8a01;
+}
+
+.main{
+    margin: 20px auto;
+    width: 1025px;
+}
+/*top css*/
+.main-top{
+    width: 1024px;
+    height: 325px;
+}
+.main-top-left{
+    width: 236px;
+    height: 324px;
+    border: 1px solid #eeeeee;
+}
+.course-ul{
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid #eeeeee;
+}
+.course-ul li{
+    float: left;
+    padding: 10px 16px 0;
+}
+.course-ul li p{
+    height: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.tree-gray,.tree-gray-1{
+    position: absolute;
+    top: 10px;
+    width: 1px;
+    height: 46px;
+    background: #eee;
+}
+.tree-gray{
+    left: 75px;
+}
+.tree-gray-1{
+    right: 75px;
+}
+.base-cour{
+    position: relative;
+    cursor: pointer;
+}
+.orange-cour{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #fb8a01;
+}
+p.on{
+    color: #000;
+}
+/**/
+table{
+    font-size: 14px;
+    overflow-y: auto;
+}
+.small-git{
+    width: 224px;
+}
+table tr th{
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+}
+table tr td{
+
+}
+.big-big tr td{
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+}
+.pink-org,.pink-share,.main-share{
+    width: 70px;
+}
+th.pink-org{
+    text-align: right;
+}
+.pink-down,.main-down{
+    width: 98px;
+}
+.big-big .main-org{
+    width: 70px;
+    text-align: right;
+}
+.main-share{
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+.main{
+    margin: 10px auto;
+    width: 1100px;
+}
+.personal-main{
+    margin: 10px auto;
+    padding: 0 15px;
+    width: 1070px;
+    background: #FFFFFF;
+}
+.personal-main h3{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    text-indent: 6px;
+}
+.green{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100px;
+    height: 3px;
+    background: #bcc628;
+}
+/*中间个人设置*/
+.personal-content{
+}
+.center-content{
+    position: relative;
+    margin: 80px auto 0;
+    width: 720px;
+}
+.center-content p{
+    line-height: 50px;
+
+}
+.center-content span{
+    display: inline-block;
+    margin-right: 10px;
+    width: 100px;
+    text-align: right;
+    color: #666;
+}
+.center-content p input,#active-pass{
+    padding-left: 10px;
+    width: 268px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #d7d7d7;
+}
+#name,#user{
+    width: 268px;
+    text-align: left;
+}
+.but-save{
+    padding: 50px;
+}
+span.save,span.resel{
+    display: inline-block;
+    margin-right: 60px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+span.save{
+    background: #bcc628;
+    color: #FFFFFF;
+}
+.resel{
+    background: #f4f1f1;
+    color: #666;
+}
+.phone,.id-num{
+    position: relative;
+}
+.star,.star-1{
+    position: absolute;
+    top: 18px;
+    width: 12px;
+    height: 12px;
+    background: url(../img/red-str.png) no-repeat;
+}
+.star{
+    left: 40px;
+}
+.star-1{
+    left: 13px;
+}
+.right-mes{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+}
+.right-mes img{
+    width: 94px;
+    height: 94px;
+}
+.file{
+   width: 100px;
+    height:35px;
+}
+
+
+

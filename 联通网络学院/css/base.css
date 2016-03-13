@@ -1,0 +1,193 @@
+/*base css stylesheet*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+*{
+    color: #000000;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*main*/
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.co1{
+    color: #d20000;
+}
+.co2{
+    color: #3399ff;
+}
+.co3{
+    color: #fb8a01;
+}
+.co4{
+    color: #333;
+}
+.co5{
+    color: #555;
+}
+.co6{
+    color: #666;
+}
+.co7{
+    color: #999;
+}
+/*header*/
+.header{
+    width: 100%;
+}
+#header{
+    position: relative;
+    margin: 0 auto;
+    width: 1025px;
+}
+.logo{
+    width: 360px;
+    height: 100px;
+}
+.header-right{
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+.person-left{
+
+}
+.person-left p{
+    text-align: right;
+    height: 26px;
+    line-height: 26px;
+}
+.hh-name{
+    
+}
+.manage-img{
+    overflow: hidden;
+}
+.manage-img li{
+    float: left;
+}
+.manage-img li a{
+    padding: 0 6px;
+    border-right: 1px solid #000000;
+}
+li.last a{
+    border:none;
+}
+.person-img{
+    width: 47px;
+    height: 47px;
+}
+.person-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/*nav*/
+.nav{
+    height: 45px;
+    background: #d20000;
+}
+.center{
+    margin: 0 auto;
+    width: 1025px;
+}
+.nav-ul{
+    height: 45px;
+}
+.nav-ul li{
+    float: left;
+}
+.nav-ul li a,.nav-span{
+    display: block;
+    width: 85px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+}
+.nav-ul li.on,.nav-ul li a:hover,.nav-span:hover{
+    background: #a80000;
+    cursor: pointer;
+}
+/*footer*/
+.footer{
+    margin: 20px auto;
+    width: 1120px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    background: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+

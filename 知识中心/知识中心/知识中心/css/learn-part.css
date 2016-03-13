@@ -1,0 +1,351 @@
+.part-input{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 270px;
+    overflow: hidden;
+}
+
+.part-sea{
+    width: 230px;
+    height: 28px;
+    border: 1px solid #eeeeee;
+}
+.sea{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/images/images/sea.png) no-repeat;
+
+}
+
+/*/!******学习 *********/
+
+.part-main{
+    margin: 30px auto;
+    width: 1000px;
+    overflow: hidden;
+}
+.part-left{
+    margin-right: 15px;
+    width: 197px;
+    font-size: 16px;
+}
+.part-left-title,.part-left-content{
+    padding-left: 15px;
+}
+.part-left-title{
+    height: 50px;
+    background: #559831;
+    color: #ffffff;
+    line-height: 50px;
+}
+.part-left-title i{
+    display: inline-block;
+    margin-top: 2px;
+
+    width: 14px;
+    height: 12px;
+    background: url(../img/part-u.png) no-repeat;
+}
+.part-left-content{
+    padding: 5px 10px;
+    background: #ffffff;
+}
+
+.part-left-content li a{
+    display: block;
+    width: 179px;
+    height: 52px;
+    line-height: 52px;
+    text-indent: 16px;
+    color: #333;
+}
+.part-left-content li.on a,.part-left-content li a:hover{
+    color: #558831;
+    background: #eeeeee;
+}
+
+/*right right right*/
+.part-right{
+    width: 786px;
+}
+.part-right p{
+
+}
+/*新员工培训*/
+.right-peixun{
+    margin-top: 15px;
+    padding: 15px;
+    background: #fff;
+}
+.peixun-img{
+    width: 263px;
+    height: 200px;
+}
+.peixun-img img{
+    width: 100%;
+    height: 100%;
+}
+.img-right{
+    margin-left: 273px;
+}
+.img-title{
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+}
+.editor-h2{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    padding-left: 30px;
+    background: url(../img/editor.png) no-repeat left center;
+    cursor: pointer;
+}
+/*.editor-h2 i{*/
+    /*display: inline-block;*/
+    /*padding-left: 10px;*/
+    /*width: 20px;*/
+    /*height:20px;*/
+    /*background: url(../img/editor.png) no-repeat;*/
+/*}*/
+.img-content{
+    font-size: 14px;
+}
+.part-time,.bao-ming{
+    display: inline-block;
+    width: 186px;
+    height: 27px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.part-time span{}
+
+.bao-intro{
+    padding-top: 5px;
+    line-height: 22px;
+    font-size: 13px;
+    /*/!*多余省略号*!/*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+}
+/*peixun-mid*/
+.peixun-mid{
+    margin-top: 40px;
+}
+.p-mid-title{
+    line-height: 28px;
+    position: relative;
+    text-indent: 16px;
+}
+.p-mid-title i{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 7px;
+    height: 20px;
+    background: #bcc628;
+}
+.line-heng{
+    position: absolute;
+    top: 14px;
+    left: 106px;
+    width: 646px;
+    height: 1px;
+    background: #eeeeee;
+}
+
+.p-mid-content{
+    padding: 15px 0;
+    overflow: hidden;
+}
+.p-mid-content li{
+    margin-right: 25px;
+    margin-bottom: 20px;
+    float: left;
+    width: 170px;
+}
+.p-mid-content li img{
+    width:170px;
+    height: 128px;
+}
+.p-mid-content li p{
+    line-height: 25px;
+    font-size: 14px;
+}
+.p-mid-content li.on{
+    padding: 0;
+    width: 168px;
+    border: 1px solid #eeeeee;
+}
+.p-mid-content li.on img {
+    padding: 25px 40px;
+    width: 98px;
+}
+/*class person*/
+.feng-cai{
+    margin: 20px auto;
+    padding: 15px;
+    background: #fff;
+}
+
+.cai-title{
+    position: relative;
+    color: #333333;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #eeeeee;
+    text-indent: 10px;
+}
+.cai-i{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    height: 3px;
+    background: url(../img/u267.png) no-repeat;
+}
+.regin{
+    position: relative;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    cursor: pointer;
+}
+.cai-add{
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 18px;
+    background: url(../img/cai-add.png) no-repeat;
+}
+/*cai-main*/
+.cai-content{
+    padding: 15px 0;
+}
+.cai-ul{
+    overflow: hidden;
+}
+.cai-ul li{
+    float: left;
+    margin-right: 15px;
+    +margin-right:14px;
+    padding: 10px 6px;
+    width: 98px;
+
+    border: 1px solid #eeeeee;
+}
+.cai-ul li:last-child{
+    margin-right: 0;
+}
+
+.cai-ul li img{
+    width: 100%;
+    height: 100%;
+}
+.person-cai{
+    font-size: 14px;
+    line-height: 30px;
+}
+.person-cai span{
+
+}
+.cai-content .page-fanye{
+    margin-left: 228px;
+}
+
+/*学友圈*/
+.friend-content{
+
+}
+.friend-tab{
+    padding-top: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid #eeeeee;
+}
+.friend-tab li{
+    float: left;
+    margin-right: 15px;
+}
+.friend-tab li a{
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+}
+
+.friend-tab li.on{
+    border-bottom: 2px solid #bcc628;
+}
+
+.new,.hot{
+    display: inline-block;
+}
+.new{
+    width: 18px;
+    height: 18px;
+    background: url(../img/new.png) no-repeat;
+    background-position: 0 4px;
+}
+.hot{
+    width: 14px;
+    height: 16px;
+    background: url(../img/hot.png) no-repeat;
+}
+.tab-g{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 82px;
+    height: 35px;
+    border: 2px solid #bfcb01;
+}
+.tab-content{
+
+}
+.tab-content li{
+    padding: 15px 15px 15px 0;
+    border-bottom: 1px solid #eeeeee;
+    overflow: hidden;
+}
+.tab-content li:last-child{
+    border: none;
+}
+
+.tab-content li img{
+    float: left;
+    width: 44px;
+}
+.tab-right {
+    float: left;
+    margin-left: 10px;
+    width: 686px;
+}
+.tab-right p{
+    line-height: 25px;
+}
+.aa1{
+    font-size: 16px;
+}
+.aa2{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

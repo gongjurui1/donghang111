@@ -1,0 +1,202 @@
+.part-input{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 198px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.part-sea{
+    width: 230px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #eeeeee;
+}
+.sea{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/images/images/white.png) no-repeat;
+
+}
+
+/***ditudituditu****/
+.ditu-main{
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.ditu-top,.ditu-use{
+    background: #fff;
+}
+.ditu-top{
+    margin: 10px 0;
+    padding: 20px 10px 10px;
+}
+.ditu-pro{
+    position: relative;
+    height: 40px;
+    background: url(../img/images/images/pro.png) no-repeat;
+    background-position: -4px 0;
+}
+.circle{
+    position: absolute;
+}
+.pro{
+    position: absolute;
+    width: 163px;
+    height: 12px;
+    top: 11px;
+    left: 24px;
+    background: url(../img/images/images/pro-g.png) no-repeat;
+}
+
+.pro-font{
+    
+}
+.pro-index{
+    position: relative;
+    margin: 15px 0;
+    width: 976px;
+    height: 215px;
+    background: #eee;
+    overflow: hidden;
+}
+.ditu-small{
+    position: absolute;
+    left: 85px;
+    top: 55px;
+    width: 24px;
+    height: 32px;
+    background: url(../img/images/images/ditu.png) no-repeat;
+}
+.first,.two,.three,.four,.five{
+    position: absolute;
+    bottom: 0;
+    width: 195px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.first{
+    left: 0;
+    height: 58px;
+    line-height: 58px;
+    background: #bcc628;
+}
+.two{
+    left: 195px;
+    height: 100px;
+    line-height: 100px;
+    background: #d2d2d2;
+}
+.three{
+    left: 390px;
+    height: 144px;
+    line-height: 144px;
+    background: #c9c9c9;
+}
+.four{
+    left: 585px;
+    height: 180px;
+    line-height: 200px;
+    background: #bcbcbc;
+}
+.five{
+    left: 780px;
+    height: 200px;
+    line-height: 200px;
+    background: #a3a3a3;
+}
+/*开课通知*/
+.class-news{
+    padding-left: 10px;
+    height: 60px;
+    background: #f7f7f7;
+}
+.class-news p{
+    line-height: 30px;
+}
+
+.class-tell{
+    font-weight: bold;
+}
+
+/*ditu-use*/
+.ditu-use{
+    margin:20px 0;
+}
+.event-col{
+    padding: 10px;
+    background: #fff;
+}
+.event-title{
+    position: relative;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 2px solid #eeeeee;
+}
+.event-title i{
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background: #bcc628;
+}
+.event-title h2{
+    width: 100px;
+    height: 43px;
+    color:#333;
+    font-weight: normal;
+    border-bottom: 3px solid #bfcb01;
+    font-size: 20px;
+}
+.more{
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.event-content{
+    overflow: hidden;
+}
+.event-1{
+    float: left;
+    margin: 20px 25px 0 0 ;
+    width: 300px;
+
+}
+.event-img{
+    float: left;
+    width: 145px;
+    height: 110px;
+    cursor: pointer;
+}
+.ditu-img{
+    float: left;
+    margin-left: 10px;
+    width: 145px;
+}
+.ditu-img h2{
+    font-size: 16px;
+    cursor: pointer;
+}
+.ditu-img-con{
+    padding-top: 15px;
+}
+.ditu-img-con p{
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+

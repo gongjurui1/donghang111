@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>联通网络学院</title>
+    <link rel="stylesheet" href="css/base.css" type="text/css"/>
+    <link rel="stylesheet" href="css/index-lian.css" type="text/css"/>
+</head>
+<body>
+<div class="header">
+    <div id="header">
+        <img src="img/logo.jpg" alt="" class="logo"/>
+
+        <div class="header-right">
+            <div class="person-left co5 fl">
+                <p>欢迎您:<span class="hh-name co3">周倩倩</span></p>
+                <ul class="manage-img">
+                    <li><a href="##">培训管理</a></li>
+                    <li><a href="##">管理中心</a></li>
+                    <li><a href="##">设置</a></li>
+                    <li class="last"><a href="##">注销</a></li>
+                </ul>
+            </div>
+            <div class="person-img fl">
+                <img src="img/person.jpg" alt=""/>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="center">
+            <span class="fr nav-span">学院社区</span>
+            <span class="fr nav-span">支撑中心</span>
+            <ul class="nav-ul">
+                <li><a href="##">首页</a></li>
+                <li><a href="##">学习中心</a></li>
+                <li class="on"><a href="##">知识中心</a></li>
+                <li><a href="##">考评中心</a></li>
+                <li><a href="##">直播中心</a></li>
+                <li><a href="##">共享中心</a></li>
+                <li><a href="##">专栏</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--header end-->
+<div class="main">
+    <div class="main-top">
+        <div class="main-top-left fl">
+            <ul class="course-ul">
+                <i class="tree-gray"></i>
+                <i class="tree-gray-1"></i>
+                <li>
+                    <p class="co7"><span class="co3">8283</span>门</p>
+
+                    <p class="co5 base-cour on">课程
+                        <i class="orange-cour"></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="co7"><span class="co3">8283</span>个</p>
+
+                    <p class="co5 base-cour">文档
+                        <i></i>
+                    </p>
+                </li>
+                <li>
+                    <p class="co7"><span class="co3">8283</span>个</p>
+
+                    <p class="co5 base-cour">案例
+                        <i></i>
+                    </p>
+                </li>
+            </ul>
+
+            <table class="small-git">
+                <tr>
+                    <th class="pink-org  co7">单位/组织</th>
+                    <th class="pink-down  co7">上传</th>
+                    <th class="pink-share  co7">共享</th>
+                </tr>
+            </table>
+            <div style="overflow-y: auto;height: 226px;">
+            <table class="big-big">
+                    <tr>
+                        <td class="main-org co6">北京</td>
+                        <td class="co3 main-down">5555</td>
+                        <td class="co3 main-share">35333</td>
+                    </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+                <tr>
+                    <td class="main-org co6">北京</td>
+                    <td class="co3 main-down">5555</td>
+                    <td class="co3 main-share">35333</td>
+                </tr>
+
+            </table>
+        </div>
+        </div>
+        <!-- left left left-->
+        <div class="main-top-tab fl"></div>
+        <div class="main-top-right fl"></div>
+    </div>
+
+
+</div>
+<!--main-end-->
+<div class="footer">
+    技术服务支撑热线
+</div>
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+//        点击课程中心，
+        $('.course-ul>li').children('.base-cour').click(function(){
+           $(this).children('i').addClass('orange-cour')
+                   .parents('li').siblings('li').find('i').removeClass('orange-cour');
+        });
+    })
+
+
+</script>
+</body>
+</html>

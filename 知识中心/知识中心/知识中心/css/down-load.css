@@ -1,0 +1,263 @@
+.main{
+    margin: 10px auto;
+    width: 1000px;
+    overflow: hidden;
+}
+.main p{
+    font-size: 12px;
+    color: #777;
+    line-height: 30px;
+}
+.main p span{
+    color: #000;
+}
+.main-down{
+    padding: 15px 30px;
+    width:940px;
+    background: #fff;
+
+}
+.main-down h3{
+    color: #bfcb01;
+    line-height: 30px;
+}
+.down-know{
+    position: relative;
+    width: 940px;
+    height: 235px;
+    background: #fafafa;
+}
+.green-down{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -40px;
+    margin-left: -175px;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    color: #ffffff;
+    font-size: 36px;
+    background: #bfcb01;
+
+
+    cursor: pointer;
+
+}
+.jian{
+    position: absolute;
+    left: 56px;
+    top: 24%;
+    width: 36px;
+    height: 36px;
+    background: url(../img/u-1.png) no-repeat;
+}
+.wenzi{
+    padding: 168px 0 0 255px;
+    color: #999 ;
+    font-size: 16px;
+}
+/*tip star*/
+.down-tips{
+    padding-top: 20px;
+}
+.tip-title{
+    border-bottom: 1px solid #eeeeee;
+    color: #777777;
+    font-size: 14px;
+    line-height: 35px;
+}
+.tip-content{
+
+}
+.tip-content p{
+    color: #777;
+    line-height: 25px;
+    font-size: 12px;
+}
+.tip-content p span{
+    color: #66ccff;
+}
+
+.w span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.w1{
+    background: url(../img/w1.png) no-repeat 0 2px;
+}
+.w2{
+    background: url(../img/w2.png) no-repeat 0 2px;
+}
+.w3{
+    background: url(../img/w3.png) no-repeat 0 2px;
+}
+.w4{
+    background: url(../img/w4.png) no-repeat 0 0px;
+}
+.w5{
+    background: url(../img/w5.png) no-repeat 0 2px;
+}
+.w6{
+    background: url(../img/w6.png) no-repeat 0 1px;
+}
+.w7{
+    background: url(../img/w7.png) no-repeat 0 1px;
+}
+.w8{
+    background: url(../img/w8.png) no-repeat 0 1px;
+}
+.w9{
+    background: url(../img/w9.png) no-repeat 0 1px;
+}
+.w10{
+    background: url(../img/w10.png) no-repeat 0 2px;
+}
+.w11{
+    background: url(../img/w11.png) no-repeat 0 1px;
+}
+.w12{
+    background: url(../img/w12.png) no-repeat 0 1px;
+}
+.w13{
+    background: url(../img/w13.png) no-repeat 0 0px;
+}
+
+
+/******分享经验分享经验分享经验css样式*********/
+
+input{
+    border:none;
+    outline: none;
+}
+select{
+    outline: none;
+}
+.main-down p{
+    line-height: 45px;
+}
+.share-content{
+    padding: 15px 160px;
+    border-top: 1px solid #eeeeee;
+}
+p.s-c-t{
+    font-size: 14px;
+    color:  #666;
+}
+.s-c-in{
+    width: 278px;
+    height: 34px;
+    border: 1px solid #eeeeee;
+}
+p.s-c-b{
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+}
+.share-select{
+    padding-left: 10px;
+    width: 188px;
+    height: 30px;
+    color: #666;
+    color: #999;
+    font-size: 14px;
+}
+
+
+.editor{
+
+}
+.editor p{
+    font-size: 16px;
+    color: #666;
+}
+.ueditor{
+    width: 627px;
+    height: 207px;
+    border: 1px solid #eee;
+}
+.share-tell{
+
+}
+.share-tell p{
+    color: #bfcb01;
+    font-size: 14px;
+    line-height: 30px;
+}
+p.falv{
+    position: relative;
+    padding-left: 20px;
+    color: #666;
+}
+p.falv i{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    zoom: 1;
+    width: 15px;
+    height: 15px;
+    background: url(../img/images/images/cor-tri.png) no-repeat;
+}
+p.ziliao{
+    font-size: 16px;
+    color: #666;
+}
+.ziliao-i{
+    width: 627px;
+    height: 40px;
+    border: 1px solid #eeeeee;
+}
+p.help{
+    color: #999;
+    font-size: 14px;
+}
+p.help input{
+    width: 106px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #eeeeee;
+    border: 1px solid #eee;
+}
+div.declare{
+    padding: 10px;
+    width: 607px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 14px;
+    color: #bfcb01;
+    border: 1px solid #bfcb01;
+}
+.share-bottom{
+    margin: 40px auto;
+    padding-left: 100px;
+}
+.share-bottom a{
+    display: inline-block;
+    margin-right: 16px;
+    width: 134px;
+    height: 35px;
+    color: #bfcb01;
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    border: 1px solid #bfcb01;
+}
+.share-bottom a:hover{
+    background: #bfcb01;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+

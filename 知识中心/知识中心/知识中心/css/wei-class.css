@@ -1,0 +1,176 @@
+.ti-p{
+    width: 1000px;
+    margin: 10px auto;
+}
+.wei-main{
+    margin: 10px auto;
+    width: 1000px;
+}
+.wei-main-top{
+    padding: 0 15px;
+    background: #fff;
+}
+.wei-m-t-title{
+    position: relative;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #eeeeee;
+    text-indent: 12px;
+}
+.green{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 5px;
+    height: 15px;
+    background: #bcc628;
+}
+.wei-m-t-content{
+    position: relative;
+    padding: 20px 0;
+}
+.wei-right,.wei-left{
+    position: absolute;
+    top: 20px;
+    width: 42px;
+    height: 152px;
+}
+.wei-left{
+    left: 0;
+}
+.wei-right{
+    right: 0;
+}
+/*轮播中间部分*/
+.wei-center{
+    position: relative;
+    margin-left: 65px;
+    width: 856px;
+    height: 152px;
+    overflow: hidden;
+}
+.wei-ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3424px;
+    height: 152px;
+}
+.wei-ul li{
+    float: left;
+    width: 214px;
+}
+.wei-ul li a{
+    position: relative;
+    display: block;
+    width: 198px;
+    height: 152px;
+}
+.wei-ul li img{
+    width: 198px;
+    height: 152px;
+}
+.wei-ul li a p{
+    position: relative;
+    bottom: 24px;
+    left: 0;
+    z-index: 99;
+    color: #fff;
+}
+/*微课堂中间部分*/
+.wei-main-mid{
+    margin: 20px auto;
+    padding: 10px 15px;
+    background: #ffffff;
+}
+/*search center*/
+.flower-filter{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 318px;
+    height: 36px;
+}
+.flo-input{
+    padding-left: 10px;
+    width: 226px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #eeeeee;
+}
+.flo-search{
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #559831;
+    color: #fff;
+    cursor: pointer;
+}
+.wei-mid-content{
+    padding: 15px 0;
+}
+.wei-mid-ul{
+    overflow: hidden;
+}
+.wei-mid-ul li{
+    float: left;
+    margin: 10px 23px 5px 0;
+    width: 225px;
+    height:;
+}
+.wei-mid-ul li img{
+    width: 224px;
+    height: 170px;
+    cursor: pointer;
+}
+.wei-mid-ul li p{
+    height: 28px;
+    line-height: 28px;
+}
+.wei-ii{
+}
+.wei-ii-left,.wei-ii-right{
+    position: relative;
+    padding-top: 2px;
+    width: 100px;
+    text-indent: 23px;
+}
+.wei-ii-right{
+    width: 120px;
+}
+.wei-time,.wei-per{
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.wei-time{
+    background: url(../img/images/images/time.png) no-repeat;
+}
+.wei-per-t{
+    position: absolute;
+}
+.wei-per{
+    background: url(../img/images/images/wei-per.png) no-repeat;
+}
+.wei-tol{
+    position: absolute;
+    top: 5px;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

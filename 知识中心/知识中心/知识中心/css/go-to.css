@@ -1,0 +1,484 @@
+
+/*学友圈*/
+.circle-main{
+    margin: 0 auto;
+    width: 1000px;
+    background: #fff;
+
+}
+/*main-top*/
+.circle-main-top{
+    height: 250px;
+    background: url(../img/stu-top-bg.png) no-repeat;
+}
+.main-top-center{
+    margin: 0 auto;
+    padding: 40px 0 10px;
+    width: 220px;
+}
+.main-top-center img{
+    padding-left: 64px;
+    width: 98px;
+    height: 98px;
+    border-radius: 49px ;
+}
+.cir-img-mid{
+    text-align: center;
+    height:46px;
+    line-height: 40px;
+    color: #333;
+}
+.cir-img-bot{
+
+}
+.total-a{
+    padding-right: 38px;
+}
+.total-b{}
+/*main*/
+.circle-main-content{
+    padding: 20px;
+}
+.circle-main-con-title{
+    overflow: hidden;
+}
+.form{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #eeeeee;
+}
+.tie-zi{
+    padding-left: 10px;
+    width: 882px;
++width:878px;
+    height: 48px;
+    line-height: 50px;
+    color: #bbb;
+}
+.camera{
+    width: 66px;
+    height: 50px;
+    cursor: pointer;
+    background: #fafafa url("../img/camera.png") no-repeat center center;
+}
+
+/*hide*/
+.form-hide,.form-hide-in{
+
+    border: 1px solid #eee;
+    border-top: none;
+}
+.form-hide{
+    display: none;
+}
+.form-hide form,.form-hide-in form{
+    height: 68px;
+    overflow: hidden;
+}
+.hide-tie-zi,.hide-tie-zi-in{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 882px;
++width:878px;
+    height: 48px;
++ height : 56px;
+    resize: none;
+    border: none;
+    outline: none;
+    color: #bbbbbb;
+}
+.hide-camera,.hide-camera-in{
+    width: 64px;
+    height: 68px;
+    border-left: 1px solid #eee;
+    cursor: pointer;
+    background: #fafafa url("../img/camera.png") no-repeat center center;
+}
+.form-hide-ti,.form-hide-ti-in{
+    padding: 10px 0;
+    height: 30px;
+    border-top: 1px solid #eee;
+}
+.face,.at,.face-in,.at-in{
+    display: inline-block;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.face,.face-in{
+    margin-left: 10px;
+    background: url(../img/face.png) no-repeat;
+}
+.at,.at-in{
+    background: url(../img/at.png) no-repeat;
+}
+.ti-ti,.ti-ti-in{
+    margin-left: 750px;
+    display: inline-block;
+    width:100px;
+    height:35px;
+    text-align: center;
+    line-height: 35px;
+    background: #bcc628;
+    color: #ffffff;
+    cursor: pointer;
+}
+/**/
+.circle-main-content1{
+
+}
+.clear{
+    clear: both;
+}
+.circle-ul{
+
+}
+.circle-ul li,.circle-ul-1 li{
+    padding: 22px 0;
+    border-bottom: 1px dashed #eeeeee;;
+}
+.circle-ul li{
+    /*overflow: hidden;*/
+}
+
+.circle-ul-1 li img,.circle-ul li img{
+    float: left;
+}
+.circle-ul li img.circle-img,.circle-ul-1 li img.circle-img{
+    float: left;
+    width: 46px;
+    height: 44px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.circle-detail{
+    position: relative;
+    margin-left: 10px;
+    width: 900px;
+    font-size: 14px;
+    _display:inline;
+}
+.circle-detail p{
+    line-height: 25px;
+}
+.cir-name{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.cir-date{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.cir-talk{
+    position: relative;
+    padding: 10px 0;
+
+}
+.talk-left{
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+.talk-i,.talk-i-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../img/talk.png) no-repeat center center;
+}
+.talk-i-1{
+    left: 0;
+}
+.zan{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 88px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 45px;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.zan-hander{
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    width:18px;
+    height:18px;
+    background: url(../img/zan.png) no-repeat;
+}
+
+/*翻页显示效果图片*/
+.page-fanye{
+
+    width: 472px;
+    height: 31px;
+}
+.page-fanye span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+#fanye-list select{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+.fanye-last,.fanye-last select{
+    width: 70px;
+    height: 25px;
+    text-indent: 6px;
+    color: #555;
+}
+/*go-to tiezi*/
+.ti-p{
+    width: 1000px;
+    margin: 10px auto;
+}
+.hot-friend{
+    margin: 10px auto;
+    width: 1000px;
+}
+/*top-top*/
+.hot-title,.hot-content{
+    padding: 15px;
+    background: #ffffff;
+}
+.hot-title h2,.hot-content h2{
+    font-size: 18px;
+}
+.hot-tiezi{
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    text-indent: 14px;
+    border-bottom: 1px solid #eee;
+}
+.green{
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 5px;
+    height: 15px;
+    background: #bcc628;
+}
+.t-green{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: url(../img/u267.png) no-repeat;
+}
+.owner-1{
+    display: inline-block;
+    margin-left: 10px;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #ebfdfe;
+    color: #999;
+}
+/*all-rep css style*/
+.hot-content{
+    margin: 5px 0;
+}
+.all-title{
+    border-bottom: 1px solid #eeeeee;
+}
+.all-content-cen{}
+.all-cen-ul{
+
+}
+.all-cen-ul li{
+    padding: 10px 0;
+}
+.all-cen-ul li img.all-cen-img{
+    float: left;
+    width: 46px;
+    height: 44px;
+}
+.all-ul-right{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    width: 900px;
+    font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+.all-ul-right p{
+    line-height: 25px;
+}
+.all-talk{
+    position: relative;
+    padding: 20px 0 5px;
+}
+.wri-all{
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width:15px;
+    height:14px;
+    background: url(../img/images/images/u--2.png) no-repeat;
+}
+.all-zan,.all-no-zan{
+    position: absolute;
+    top: 20px;
+    width: 88px;
+    height: 28px;
+    line-height: 28px;
+    text-indent: 50px;
+    border: 1px solid #eeeeee;
+}
+.all-zan{
+    right: 100px;
+}
+.all-no-zan{
+    right: 0;
+}
+.zan-gray,.zan-green{
+    position: absolute;
+    top: 5px;
+    width:16px;
+    height:16px;
+    background: url(../img/images/images/no-zan.png) no-repeat;
+}
+.zan-gray{
+    left: 18px;
+}
+.zan-green {
+    top: 7px;
+    left: 18px;
+    background: url(../img/images/images/zan-fan.png) no-repeat;
+}
+.all-ul-right-1,.all-ul-right-2{
+    position: relative;
+    width: 900px;
+    border-bottom: 1px solid #eee;
+}
+.all-ul-right-2{
+    /*display: none;*/
+    padding: 0 0;
+}
+p.all-hei{
+    height: 30px;
+    line-height: 30px;
+}
+/*收起回复*/
+.hide-rep{
+    display: none;
+    word-wrap: break-word;
+    word-break: break-all;
+    /*position: relative;*/
+    /*top: -20px;*/
+}
+.hide-rep-top{
+    position: relative;
+    top: 1px;
+    width: 84px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    background: #f7f8fa;
+    border: 1px solid #eeeeee;
+    border-bottom: #f7f8fa;
+}
+.hide-rep-content{
+    padding: 20px 5px;
+    border: 1px solid #eeeeee;
+    background: #f7f8fa;
+}
+
+.rep-ok{
+    display: none;
+    padding: 15px 0;
+}
+.rep-ok-top{
+    position: relative;
+}
+.name-1{
+
+}
+.owner-1{
+
+}
+.just-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rep-ok-content{
+    position: relative;
+    margin: 15px auto;
+}
+p.rep-det{
+    padding: 10px;
+    width: 786px;
+    background: #f7fef6;
+    line-height: 20px;
+}
+.delete{
+    position: absolute;
+    top: 40px;
+    right: 35px;
+    width:13px;
+    height:21px;
+    background: url(../img/images/images/det.png);
+    cursor:pointer;
+}
+
+
+
+
+/**************new form-hide-in********/
+/*form-hide-hide-in*/
+
+.form-hide-in{
+
+}
+.form-hide-in form{
+    border-top: 1px solid #eeeeee;
+}
+.hide-tie-zi-in{
+    width: 810px;
+    height: 67px;
+}
+.hide-camera-in{
+}
+.form-hide-ti-in{
+    background: #ffffff;
+}
+.face-in{}
+.at-in{}
+.ti-ti-in{
+    margin-left: 698px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,342 @@
+.main{
+    width: 1000px;
+    margin: 10px auto;
+
+}
+.main-title{
+
+}
+.main-content{
+    display: block;
+}
+.main-tab{
+    width: 1010px;
+    height: 45px;
+    background: #f5f5f5;
+}
+
+
+/****************************************/
+
+.header-center {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 560px;
+    float: left;
+}
+
+.header-input {
+    margin-top: 15px;
+    float: right;
+    width: 400px;
+    height: 40px;
+    border: 2px solid #bcc628;
+}
+
+.left-more {
+    width: 80px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    float: left;
+    background: #f8f8f8;
+}
+
+
+.input-bao{
+    position: relative;
+}
+.left-more a {
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    background: url(../img/images/images/input-more_03.png) no-repeat 0 -2px;
+}
+
+.input-course {
+    padding: 0 10px;
+    width: 259px;
+    height: 40px;
+    border-left: 1px solid #bcc628;
+}
+
+.input-sear {
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #bcc628;
+}
+
+.input-sear img {
+    margin-top: 13px;
+    margin-left: 2px;
+}
+
+.input-bot {
+    padding-left: 20px;
+    width: 400px;
+    height: 25px;
+    line-height: 42px;
+    color: #999;
+    font-size: 12px;
+}
+.main{
+    width: 1000px;
+    margin: 20px auto;
+}
+.main p{
+    line-height: 30px;
+}
+.main span{
+
+}
+.main-down{
+    position: relative;
+    padding: 15px;
+    width: 970px;
+    background: #ffffff;
+}
+.down-news{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #eeeeee;
+}
+.down-news li{
+    float: left;
+    margin-right: 15px;
+    width: 100px;
+    height: 42px;
+}
+.down-news li a{
+    position: relative;
+    color: #333;
+    display: block;
+    width: 100px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+.news-tri{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    background: url(../img/bg.png) no-repeat;
+}
+/*主体部分*/
+.news-content{
+
+}
+.news-content1{
+    display: none;
+    padding: 10px 9px 0 0;
+}
+.news-content1 li{
+    height: 49px;
+    line-height: 49px;
+    color: #333;
+    font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
+}
+.news-1-course{
+    color: #000;
+    font-weight: bold;
+}
+.news-1-learn{
+    color: #579638;
+}
+.news-content li a{
+    color: #579638;
+}
+.news-1-learn{
+    display: inline-block;
+    margin-right: 4px;
+    width: 18px;
+    height: 14px;
+    background: url(../img/images/cor.png) no-repeat 0 5px;
+}
+.news-content1 li:last-child{
+    border: none;
+}
+.red,.red1{
+    position: absolute;
+    top: 0px;
+    right: 380px;
+    width: 20px;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 3px;
+    background: red;
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-border-radius: 10px 8px;
+    -moz-border-radius: 10px 8px;
+    border-radius: 10px 8px;
+}
+.change-co{
+    background: #f6f6f6;
+}
+
+/*系统通知显示*/
+.news-content6{
+    display: block;
+    padding:20px 0;
+}
+
+.email-title{
+    padding-left: 15px;
+    height: 40px;
+    background: #f5f5f5;
+}
+.email-email{
+    float: left;
+    width: 300px;
+    height: 40px;
+}
+.email-title a{
+    margin-top: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    text-align: center;
+    border-radius: 4px;
+}
+.email-title a:hover,.email-title a.on{
+    background: #579638;
+    color: #ffffff;
+    font-size: 14px;
+}
+.email-input{
+    float: right;
+    margin-right: 4px;
+    margin-top: 2px;
+    width: 320px;
+    height: 34px;
+}
+.email-s{
+    float:left;
+    width: 237px;
+    height: 32px;
+    border: 2px solid #eee;
+    border-right: none;
+
+}
+.email-search{
+    float: left;
+    width: 80px;
+    height: 34px;
+    background: #579638;
+    color: #ffffff;
+    font-size: 16px;
+}
+/*title end*/
+.email-middle{
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.circle{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #eeeeee;
+    background: #ffffff;
+}
+/*底部状态显示*/
+.email-bottom{
+
+}
+
+.email-status{
+    height: 40px;
+    line-height: 32px;
+    background: #f5f5f5;
+}
+.email-status span{
+    display: inline-block;
+    width: 200px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+.email-status .status{
+    width: 450px;
+    text-align: left;
+}
+
+
+/*分页部分开始*/
+.status-content li{
+    height: 46px;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+.status-content span{
+    display: inline-block;
+    color: #999;
+    width: 200px;
+    font-size: 12px;
+    text-align: center;
+}
+.status-content .status-news{
+    width: 455px;
+    color: #555;
+    font-weight: bold;
+    text-align: left;
+}
+.odd{
+    background: #f8f9fb;
+    cursor: pointer;
+}
+
+/*翻页显示效果图片*/
+.page-fanye{
+    margin-top: 20px;
+    margin-left: 220px;
+    width: 472px;
+    height: 31px;
+}
+.page-fanye span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #555;
+}
+#fanye-list select{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+.fanye-last option{
+    color: #555;
+}
+/****************个人中心---通知样式**************/
+.red1{
+    left: 180px;
+}
+
+
+
+
+
+
+

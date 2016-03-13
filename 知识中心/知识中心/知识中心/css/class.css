@@ -1,0 +1,534 @@
+.class-main{
+    margin: 0 auto;
+    width: 1000px;
+}
+.ti-p{
+    line-height: 45px;
+}
+/*class-left*/
+.class-left{
+    width: 760px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+.class-l-new{
+
+}
+.class-l-new h2{
+    position:relative;
+    padding-left: 15px;
+    height: 44px;
+    line-height: 44px;
+    background: url(../img/repeat.png) repeat-x;
+    border-bottom: 1px solid #eeeeee;
+    text-indent: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.class-l-new .t-green{
+    top: 13px;
+    left: 14px;
+}
+.h2-content{
+    padding: 15px;
+}
+.class-l-new-content{
+}
+.class-l-new-content p{
+    line-height: 25px;
+}
+/************/
+.class-cour{
+    margin: 10px 0;
+}
+.class-cour-title{
+    position:relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    text-indent: 15px;
+}
+
+.class-ccc{
+    position: absolute;
+    top: 0;
+    left: 2px;
+}
+
+.class-cour-title .t-green{
+    top: 16px;
+    left: 4px;
+}
+.grey{
+    position: absolute;
+    left: 108px;
+    top: 24px;
+    width: 616px;
+    height: 1px;
+    background: #eee;
+}
+/*选项轮播图*/
+.class-cour-content{
+    position: relative;
+    width: 725px;
+    height: 200px;
+    background: #f8f8f8;
+    overflow:hidden;
+}
+
+.tab-tab{
+    width: 725px;
+    overflow: hidden;
+}
+.course-tab{
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 2920px;
+    overflow: hidden;
+
+}
+.course-tab li{
+    float: left;
+    margin: 0 5px;
+    _display:inline;
+}
+.course-tab li img{
+    width: 170px;
+    height: 128px;
+}
+.course-tab p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.tab-left,.tab-right{
+    position: absolute;
+    top: 48px;
+    width:50px;
+    height:50px;
+}
+.tab-left{
+    left: 4px;
+    background: url(../img/l-r.png) no-repeat 0 0;
+}
+.tab-right{
+    right: 4px;
+    background: url(../img/l-r.png) no-repeat -50px 0;
+}
+/*class-test*/
+.class-test{
+    position: relative;
+}
+.choose11{
+    margin-top: 0px;
+    height: 44px;
+    line-height: 44px;
+    background: #f5f5f5;
+}
+.choose11 span,.choose12 span{
+    display: inline-block;
+    text-align: center;
+}
+span.span-one{
+    width: 200px;
+    text-align: left;
+    text-indent: 15px;
+}
+.span-two,.span-three {
+    width: 124px;
+}
+
+.span-l{
+    width: 60px;
+}
+.down,.up{
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+
+}
+.down{
+    background: url(../img/bottom-down.png) no-repeat;
+}
+.up{
+    background: url(../img/bottom-down.png) no-repeat;
+}
+.choose12{
+
+}
+.co5{
+    font-size: 14px;
+}
+.choose12 li{
+    height: 44px;
+    line-height: 44px;
+}
+.choose12 span{
+    display: inline-block;
+    /*text-align: center;*/
+}
+.mana-c{
+    width: 120px;
+    font-size: 14px;
+}
+
+.g-bor{
+    margin-left: 11px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid #bcc628;
+}
+span.test-1{
+    width: 200px;
+    text-align: left;
+    text-indent: 15px;
+    line-height: 44px;
+}
+.test-2{
+    width: 92px;
+}
+.test-3{
+    width: 212px;
+}
+span.test-one{
+    width: 200px;
+    text-align: left;
+    text-indent: 15px;
+}
+.test-two{
+    width: 92px;
+}
+.test-three{
+    width: 200px;
+}
+.g-bor-yes{
+    margin-left: 10px;
+    +margin-left:20px;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+}
+/*class-talk*/
+.class-talk{}
+.fenge-line{
+    position: relative;
+    text-indent: 327px;
+    height: 40px;
+    line-height: 40px;
+}
+.fenge-line span{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.line-left,.line-right{
+    position: absolute;
+    top: 20px;
+    width: 298px;
+    height: 1px;
+    background: #eeeeee;
+}
+.line-left{
+    left: 0;
+}
+.line-right{
+    right: 0;
+}
+
+.class-shuo{
+
+}
+.you-talk{
+
+}
+#talk-text{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #b0b0b0;
+    width: 696px;
+    overflow: hidden;
+    resize: none;
+    height: 110px;
+
+    line-height: 20px;
+}
+.go-out{
+    padding-left:546px;
+}
+.go-out span{
+    display: inline-block;
+}
+.sheng{
+    padding: 0 6px;
+}
+.submit{
+    width: 82px;
+    height: 28px;
+    border: 1px solid #eeeeee;
+    background: #f9f8f8;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.all-ping{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+/*all-ping*/
+.all-ping-p{
+    position: relative;
+}
+.p-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.span-span{
+    padding: 0 4px;
+}
+.ping-line{
+    margin: 10px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+.ping-line li{
+    padding: 12px 0;
+    border-top: 1px solid #eeeeee;
+    overflow: hidden;
+}
+li.none-on{
+    border: none;
+}
+.ping-line img{
+    float: left;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.ping-right{
+    margin-left: 58px;
+}
+.ping-right p{
+    line-height: 23px;
+    font-size: 14px;
+}
+.ping-right-top{
+
+}
+.ping-name{
+    cursor: pointer;
+}
+
+/*翻页显示效果图片*/
+.page-fanye{
+    margin: 20px 0;
+    margin-left: 200px;
+    width: 472px;
+    height: 31px;
+}
+.page-fanye span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+#fanye-list select{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+.fanye-last,.fanye-last select{
+    width: 70px;
+    height: 25px;
+    text-indent: 6px;
+    color: #555;
+}
+
+/*******************class-right*/
+.class-right{
+    margin-left: 775px;
+    _float:left;
+    _margin-left: 10px;
+    width: 224px;
+}
+.right-mes{
+    background: #ffffff;
+}
+.test-content p{
+    line-height: 30px;
+    font-size: 14px;
+}
+.part-in-circle{
+    margin: 10px auto 0;
+}
+.part-in,.goin-circle{
+    display: inline-block;
+    width: 88px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    border: 1px solid #bcc628;
+    cursor: pointer;
+}
+.part-in{
+
+}
+/*lastest*/
+.latest{
+    margin-top: 20px;
+    background: #ffffff;
+
+}
+.c-left-test,.c-left-class{
+    margin-bottom:25px;
+    background: #fff;
+    font-size: 14px;
+}
+/*title*/
+.test-title{
+    position: relative;
+    padding-left: 20px;
+    overflow: hidden;
+    color: #000;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.t-green{
+    position: absolute;
+    left: 8px;
+    top: 11px;
+    width: 3px;
+    height: 16px;
+    background: #bcc628;
+}
+.t-more{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.test-content,.class-content,.search-content{
+    padding: 15px;
+    border-top: 1px solid #eeeeee;
+}
+.test-content li{
+    overflow: hidden;
+    height: 50px;
+    line-height: 42px;
+
+}
+
+.year-test{
+    float: left;
+    color: #666;
+    line-height: 20px;
+
+}
+
+.year-test span{
+    display: block;
+    line-height: 20px;
+    color: #bbbbbb;
+}
+.class-content li{
+    height: 30px;
+    line-height: 30px;
+}
+.c-c-con li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.class-content .new-test,.search-test{
+    height: 30px;
+    line-height:30px;
+    color: #666;
+}
+
+
+.go-test{
+    float: right;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #bcc628;
+    border: 1px solid #bcc628;
+}
+
+.go-in{
+    float: right;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    color: #bcc628;
+    font-size: 12px;
+    background: url(../img/images/images/right.png) no-repeat right center;
+}
+.latest-main{
+
+}
+.new-date{
+
+}
+.student-lu{
+    margin: 15px 0;
+    background: #ffffff;
+}
+.student-ul{
+    padding: 0 15px;
+    border-top: 1px solid #eee;
+}
+
+.student-ul li{
+    padding: 5px 0;
+    overflow: hidden;
+}
+.student-ul li img{
+    float: left;
+    width: 46px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.student-ul-right{
+    float: left;
+    margin-left: 10px;
+}
+.student-ul-right p{
+    font-size: 14px;
+    line-height: 25px;
+}
+.ul-right-name{
+    cursor: pointer;
+}
+.student-total{
+    padding: 20px;
+}
+.person-total{
+
+}
+
+
+
+
+
+
+
+
+ 

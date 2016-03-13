@@ -1,0 +1,345 @@
+/*我的提问*/
+.tiwen-main{
+    margin: 0 auto;
+    width: 1000px;
+}
+.ti-p{
+    line-height: 40px;
+}
+
+.tiwen-no{
+    background: #ffffff;
+    padding: 15px;
+}
+
+.ty-all{
+    border-bottom: 2px solid #eee;
+}
+.t-y{
+    width: 100px;
+    height: 35px;
+    color:#333;
+    font-weight: normal;
+    border-bottom: 3px solid #bcc628;
+    font-size: 20px;
+}
+.t-y i{
+    display: inline-block;
+    width: 6px;
+    height: 22px;
+    background: #bcc628;
+}
+
+.wen-content{
+    line-height: 30px;
+}
+.wen{
+    position: relative;
+    line-height: 50px;
+}
+.wen span{
+    position: absolute;
+    top: -8px;
+    right: 4px;
+}
+.wen-ti-boter{
+    height: 50px;
+}
+
+.wen-ti-add{
+    position: relative;
+    height: 45px;
+}
+.wen-ti-add li{
+    position: relative;
+    float: left;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.wen-add,.wen-close,.wen-advance{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.wen-add{
+    background: url(../img/images/images/wen-add.png) no-repeat;
+}
+
+.wen-close{
+    background: url(../img/images/images/wen-close.png) no-repeat;
+}
+.wen-advance{
+    background: url(../img/images/images/wen-advance.png) no-repeat ;
+}
+.wen-advance-hide{
+    position: absolute;
+    right: 5px;
+    top: 24px;
+    z-index: 999;
+    display: none;
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 457px;
+    height: 66px;
+    background: url(../img/images/images/border.png) no-repeat;
+}
+.wen-advance-hide1{
+    position: absolute;
+    top: 24px;
+    right: 5px;
+    display: none;
+    width: 470px;
+    border: 1px solid #eeeeee;
+    background: #fafafa;
+    z-index:999;
+}
+#question{
+    padding: 10px;
+    width: 450px;
+    height: 70px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+.hide-button{
+    padding: 5px 0 5px 360px;
+}
+
+.hide-button span{
+    display: block;
+    width: 70px;
+    padding: 5px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: #bcc628;
+}
+
+.con{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../img/images/images/coin.png) no-repeat;
+
+}
+.wen-cir,.wen-cir-g{
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 12px;
+    height: 12px;
+}
+.wen-cir{
+    background: url(../img/images/images/circle.png) no-repeat;
+}
+.wen-cir-g{
+    background: url(../img/images/images/circle-g.png) no-repeat;
+}
+/**************/
+.all-hui{
+    margin: 10px 0;
+    padding: 15px;
+    background: #ffffff;
+}
+.hui-title{
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: 1px solid #eeeeee;
+}
+.hui-content{
+
+}
+.hui-content li{
+    padding: 8px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.hui-hot,.hui-mid,.hui-bot{
+    position: relative;
+    padding: 8px 0;
+}
+.hui-hot-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+p.hui-mid{
+    line-height: 22px;
+    font-size: 14px;
+}
+.hui-bot span{
+    cursor: pointer;
+}
+.hui-bot,.yi-cai-bot{
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.hui-acc{
+
+}
+.hui-acc i{
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url(../img/images/images/u--1.png);
+}
+.hui-rep{
+    padding-top: 2px;
+    padding-left: 20px;
+
+}
+.hui-rep i,.yi-rep i,.yi-rep-wen i{
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url(../img/images/images/u--2.png);
+}
+.zan,.no-zan{
+    margin-left: 10px;
+    width: 90px;
+    height: 28px;
+    text-indent: 22px;
+    line-height: 28px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+}
+.zan i,.no-zan i{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.zan i{
+    background: url(../img/zan.png);
+}
+.no-zan i{
+    background: url(../img/images/images/no-zan.png);
+}
+
+/*翻页显示效果图片*/
+.page-fanye{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 472px;
+    height: 31px;
+}
+.page-fanye span{
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+#fanye-list select{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+.fanye-last,.fanye-last select{
+    width: 70px;
+    height: 25px;
+    text-indent: 6px;
+    color: #555;
+}
+
+/*********我的问答，已采纳***********/
+.all-caina{
+    margin-top: 10px;
+
+}
+.yi-caina{
+    position: relative;
+    padding:0 20px  0 86px;
+    background: #f3feed;
+}
+.yicai-top{
+    overflow:hidden;
+    padding: 10px 0;
+}
+.yi-caina-left{
+
+}
+
+.hui-cai-content{
+    position: relative;
+    padding: 20px 20px 20px 80px;
+    background: #ffffff;
+}
+.hui-other{
+    overflow: hidden;
+}
+.yi-cai-bot{
+    padding-bottom: 10px;
+}
+.yi-cai-bot i{
+
+}
+.yi-rep,.yi-rep-wen{
+    cursor: pointer;
+}
+.yi-cai,.con-cai{
+    position: absolute;
+    left: 42px;
+}
+.yi-cai{
+    top: 2px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/images/images/yi-cai.png) no-repeat;
+}
+.con-cai{
+    top: 24px;
+    width: 12px;
+    height: 10px;;
+    background: url(../img/images/images/yi-san.png) no-repeat;
+}
+/*****我的问答-输入状态************/
+.hui-hide{
+    display: none;
+    border: 1px solid #eeeeee;
+    background: #f2f2f2;
+}
+.hui-hide.on{
+    display: block;
+}
+
+.hui-hide-content{
+    display: block;
+    height: 117px;
+    background: #ffffff;
+    resize: none;
+    width: 968px;
+    overflow: hidden;
+    outline: none;
+    border: none;
+
+}
+.tijiao{
+    margin: 10px 10px 10px 850px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background: #bcc628;
+    border-radius: 4px;
+}
+.tijiao a{
+    color: #ffffff;
+}
+.yi-rep-wen{
+    font-size: 14px;
+}
+.yire{
+    padding-left: 10px;
+}
+/*******二级回复页面*******/
+.hide-hu{}
+.text-area{
+    margin-left: 30px;
+    padding: 10px;
+    overflow: hidden;
+    background: #fafafa;
+}
